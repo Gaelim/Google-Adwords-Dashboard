@@ -1,0 +1,42 @@
+Google AdWords Power BI Template
+
+
+
+At present, there is an option to connect Google Ad’s live data to Power BI through a Google Analytics linked account. 
+However, the number of dimensions and metrics is extremely limited in GA. 
+So, exporting the data provides a quick option if you don’t mind just downloading an updated csv/xlsx file to refresh the data. 
+ Not a bad option for a monthly or weekly report frequency. 
+
+
+
+How to Connect Your Data to the Dashboard
+
+Creating a Report in AdWords
+
+1.      Open Google AdWords
+
+2.      In the top ribbon, click on “Reports”
+
+3.      Choose Predefined Reports-->Basic--> Campaign
+
+4.      Click “Columns” and Add “Ad Group” and “Day”.
+
+5.      Download your file to a location
+
+
+
+Changing the Source in Power BI:
+
+1.      Open the Power BI dashboard
+
+2.      Click Transform Data
+
+3.      Highlight the “Google AdWords Data” table
+
+4.      Under the Applied Steps on the far right, click “Source”
+
+5.      Change the file path to the location of where your downloaded AdWords file exists. 
+
+You can get the dashboard in the GitHub repository link here:
+
+https://github.com/Gaelim/Google-Adwords-Dashboard
